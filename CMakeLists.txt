@@ -5,5 +5,4 @@ project(Unibold VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Define the executable using main.cpp directly in the root
 add_executable(unibold main.cpp)
