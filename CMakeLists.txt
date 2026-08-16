@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
-project(MySimpleApp VERSION 1.0 LANGUAGES CXX)
+project(Unibold VERSION 1.0 LANGUAGES CXX)
 
 # Force C++17 standard
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Define the executable using main.cpp directly in the root
-add_executable(unib main.cpp)
+add_executable(unibold main.cpp)
