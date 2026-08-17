@@ -33,7 +33,7 @@ UniBold switches execution behavior using mode signatures:
 | `$<0x#>` | **Tape Mode** | Enables data assignment (`$~`), cell manipulation (`$X`), and pointer movement (`$>`). |
 | `$<0x01>` | **Output Mode** | Enables string literal printing (`$"..."`), cell printing (`$#`), and newlines (`$N`). |
 | `$<0x02>` | **Input Mode** | Prompts user input and writes result directly into `tape[ptr]`. |
-| `$<0x00>` | **Exit (0)** | Cleanly exits with return code `0`. Automatically frees heap memory if active. |
+| `$<0x00>` | **Exit (0)** | Cleanly exits with return code `0`. |
 | `$<0xF>` | **Exit (15)** | Exits with error/custom return code `15`. |
 
 ---
